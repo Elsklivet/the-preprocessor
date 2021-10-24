@@ -1,0 +1,17 @@
+#define START public class Test {
+#define MAIN public static void main(String[] args) {
+#define END_BLOCK }
+#define PRINT System.out.println
+#define ROF for
+#define FI if
+#define int_64_t int
+
+START
+    MAIN
+        PRINT("Hello world!");
+        ROF(int_64_t i = 0; i < 4; i++) {
+            PRINT(i);
+        }
+        FI(true) PRINT("True!");
+    END_BLOCK
+END_BLOCK
