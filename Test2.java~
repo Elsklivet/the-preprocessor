@@ -1,0 +1,23 @@
+#define START = public class Test2 { #endef
+#define MAIN = public static void main(String[] args) { #endef
+#define PRINT = System.out.println #endef
+#define WEEEEWEWEWEWEWE = for #endef
+#define FI = if #endef
+#define int_64_t = int #endef
+#define NODE = public class Node { 
+    String data;
+    Node next;
+
+    public Node(String str) { this.data = str; this.next = null; }
+    public Node(String str, Node nex) { this.data = str; this.next = nex; }
+} #endef
+START
+    MAIN
+        PRINT("Hello world!");
+        WEEEEWEWEWEWEWE(int_64_t i = 0; i < 4; i++) {
+            PRINT(i);
+        }
+        FI(true) PRINT("True!");
+    }
+NODE
+}

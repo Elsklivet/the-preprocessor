@@ -1,0 +1,14 @@
+#define ONEDEF = 1 #endef
+#define smthn = number #endef
+
+// I want this to say the smthn ONEDEF
+
+public class Test3 { 
+    // Uses a TestNode class
+#include <TestNode.java~>
+    #include <comments.txt>
+
+    public static void main(String[] args){
+        // Then does something else
+    }
+}

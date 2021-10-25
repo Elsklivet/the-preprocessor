@@ -1,0 +1,8 @@
+    public class TestNode {
+        private TestNode next;
+        private char data;
+        public TestNode(char c) { 
+            this.data = c;
+            next = null;
+        }
+    }

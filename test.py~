@@ -1,0 +1,5 @@
+#define WORKS FOR PYTHON TOO =def __main__():
+    print("Hello")
+#endef
+
+WORKS FOR PYTHON TOO
